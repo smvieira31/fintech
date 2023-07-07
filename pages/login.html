@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Linkando google fonts -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto Web</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../projeto/index.html">Rudge Banco</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre o Banco</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Para você
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Conta</a></li>
+                  <li><a class="dropdown-item" href="#">Cartões</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Portal</a>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+    
+      <div class="container-fluid">
+
+        <div class="container">
+            <h2 class="m-3 text-center">Login</h2>
+            <form action="" id="cadastro" name="cadastro" method="post">
+                <div class="row border rounded p-3 bg-light">
+                    <div class="col-12 my-2">
+                    <div class="col-12 col-md-6 my-2">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ex: email@email.com">
+                    </div>
+                    <div class="col-12 col-md-6 my-2">
+                        <label for="senha" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="senha" placeholder="Ex: 123456abc">
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <input  class="quero text-center" value="entrar"></div>
+
+                    <div class="esqueci text-center m-2">esqueci a senha</div>
+                    </div>
+                </div>
+            </form>
+        </div>
